@@ -1,0 +1,15 @@
+javascript can used to change the content of the html elements.
+
+
+<!DOCTYPE html>
+<html>
+<title>Web Page Design</title>
+<head>
+<body>
+    <p id="demo">My javascript </p>
+    <button type="button" style="color:red" onclick="document.getElementById('demo').innerHTML=Date()"> click me to display date and time</button>
+</body>
+</head>
+<body>
+</body>
+</html>
